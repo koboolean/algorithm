@@ -1,6 +1,6 @@
 package com.koboolean;
 
-public class selection_sort {
+public class q2_selection_sort {
 
     public static void main(String[] args) {
         System.out.println("선택정렬");

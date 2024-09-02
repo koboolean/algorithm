@@ -1,6 +1,6 @@
 package com.koboolean;
 
-public class insertion_sort {
+public class q1_insertion_sort {
 
     public static void main(String[] args) {
         System.out.println("삽입정렬");

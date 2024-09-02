@@ -1,8 +1,10 @@
-package com.koboolean;
+package com.koboolean.sort;
 
 import java.util.Arrays;
 
-public class q3_quick_sort_hoare {
+import static com.koboolean.sort.com.module.swap;
+
+public class sec_3_quick_hoare {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1,6,4,3,7,8,12,7,3,4,6,18,4,2,6,24};
@@ -57,15 +59,5 @@ public class q3_quick_sort_hoare {
         }
     }
 
-    /**
-     * 최솟값(changeIndex 위치의 값)과 i번째 값을 서로 교환한다.
-     * @param data
-     * @param index
-     * @param changeIndex
-     */
-    public static void swap(int[] data, int index, int changeIndex) {
-        int temp = data[index];
-        data[index] = data[changeIndex];
-        data[changeIndex] = temp;
-    }
+
 }

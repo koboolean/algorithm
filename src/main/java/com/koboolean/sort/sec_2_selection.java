@@ -1,6 +1,8 @@
-package com.koboolean;
+package com.koboolean.sort;
 
-public class q2_selection_sort {
+import static com.koboolean.sort.com.module.swap;
+
+public class sec_2_selection {
 
     public static void main(String[] args) {
         System.out.println("선택정렬");
@@ -37,15 +39,5 @@ public class q2_selection_sort {
         return data;
     }
 
-    /**
-     * 최솟값(changeIndex 위치의 값)과 i번째 값을 서로 교환한다.
-     * @param data
-     * @param index
-     * @param changeIndex
-     */
-    public static void swap(int[] data, int index, int changeIndex) {
-        int temp = data[index];
-        data[index] = data[changeIndex];
-        data[changeIndex] = temp;
-    }
+
 }

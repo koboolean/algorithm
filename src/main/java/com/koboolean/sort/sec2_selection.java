@@ -2,7 +2,7 @@ package com.koboolean.sort;
 
 import static com.koboolean.sort.com.module.swap;
 
-public class sec_2_selection {
+public class sec2_selection {
 
     public static void main(String[] args) {
         System.out.println("선택정렬");

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import static com.koboolean.sort.com.module.swap;
 
-public class sec_3_quick_hoare {
+public class sec3_quick_hoare {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1,6,4,3,7,8,12,7,3,4,6,18,4,2,6,24};

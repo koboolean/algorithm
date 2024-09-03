@@ -1,6 +1,6 @@
 package com.koboolean.sort;
 
-public class sec_0_bubble {
+public class sec0_bubble {
     /**
      * 버블정렬 알고리즘 Main
      */
